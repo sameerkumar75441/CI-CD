@@ -6,6 +6,6 @@ describe('test for sum fnx', () => {
 });
 
 test("adds -5,-4 equal to -9",()=>{
-    expect(sum(-5,-9)).toBe(-13);
+    expect(sum(-5,-9)).toBe(-14);
 });
 });
