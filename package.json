@@ -1,0 +1,28 @@
+{
+  "name": "ci-cd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+ "scripts": {
+  "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sameerkumar75441/CI-CD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sameerkumar75441/CI-CD/issues"
+  },
+  "homepage": "https://github.com/sameerkumar75441/CI-CD#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
